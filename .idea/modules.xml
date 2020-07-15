@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/claims.iml" filepath="$PROJECT_DIR$/claims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/claims-commcon-api/claims-commcon-api.iml" filepath="$PROJECT_DIR$/claims-commcon-api/claims-commcon-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/claims-form/claims-form.iml" filepath="$PROJECT_DIR$/claims-form/claims-form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/claims-indemnity/claims-indemnity.iml" filepath="$PROJECT_DIR$/claims-indemnity/claims-indemnity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/claims-loss-assessment/claims-loss-assessment.iml" filepath="$PROJECT_DIR$/claims-loss-assessment/claims-loss-assessment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/claims-material/claims-material.iml" filepath="$PROJECT_DIR$/claims-material/claims-material.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+    </modules>
+  </component>
+</project>

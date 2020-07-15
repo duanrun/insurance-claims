@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="claims-loss-assessment" />
+        <module name="claims-material" />
+        <module name="renren-fast" />
+        <module name="claims-indemnity" />
+        <module name="claims-commcon-api" />
+        <module name="claims-form" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="claims" target="1.8" />
+      <module name="claims-commcon-api" target="1.8" />
+      <module name="claims-form" target="1.8" />
+      <module name="claims-indemnity" target="1.8" />
+      <module name="claims-loss-assessment" target="1.8" />
+      <module name="claims-material" target="1.8" />
+      <module name="renren-fast" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-fast" options="-parameters" />
+    </option>
+  </component>
+</project>
