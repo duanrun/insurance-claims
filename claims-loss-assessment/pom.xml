@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>claims_loss_assessment</artifactId>
+    <artifactId>claims-loss-assessment</artifactId>
 
     <dependencies>
         <dependency>

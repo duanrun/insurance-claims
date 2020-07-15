@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2020-07-15 11:07:50
  */
 @RestController
-@RequestMapping("generator/indemnity")
+@RequestMapping("claim/indemnity")
 public class IndemnityController {
     @Autowired
     private IndemnityService indemnityService;
