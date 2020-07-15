@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2020-07-15 11:07:50
  */
 @RestController
-@RequestMapping("generator/lossassessment")
+@RequestMapping("claim/lossassessment")
 public class LossAssessmentController {
     @Autowired
     private LossAssessmentService lossAssessmentService;
