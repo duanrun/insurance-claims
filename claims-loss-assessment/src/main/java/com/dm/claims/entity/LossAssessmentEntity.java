@@ -27,11 +27,11 @@ public class LossAssessmentEntity implements Serializable {
 	/**
 	 * 交警定责（这里就是指判断双方责任比如46、37等）
 	 */
-	private String lossAssessmentFixduty;
+	private String lossAssessmentFixDuty;
 	/**
 	 * 保险人员（指的是负责定损的人员）
 	 */
-	private String lossAssessmentFixdutyUser;
+	private String lossAssessmentFixDutyUser;
 	/**
 	 * 赔款id
 	 */
