@@ -24,7 +24,7 @@ import com.dm.claims.service.FormService;
  * @date 2020-07-15 11:07:50
  */
 @RestController
-@RequestMapping("generator/form")
+@RequestMapping("claim/form")
 public class FormController {
     @Autowired
     private FormService formService;
