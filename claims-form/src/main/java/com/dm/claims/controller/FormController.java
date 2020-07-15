@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.dm.claims.service.FormService;
 
-
-
 /**
  * 理赔表claims_form
  *
@@ -24,8 +22,9 @@ import com.dm.claims.service.FormService;
  * @date 2020-07-15 11:07:50
  */
 @RestController
-@RequestMapping("generator/form")
+@RequestMapping("claims/form")
 public class FormController {
+
     @Autowired
     private FormService formService;
 
