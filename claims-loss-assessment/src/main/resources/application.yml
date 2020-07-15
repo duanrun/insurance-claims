@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: claims-loss-assessment
+server:
+  port: 11000

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: claims-form
+server:
+  port: 9000

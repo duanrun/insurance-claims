@@ -11,5 +11,11 @@
 
     <artifactId>claims_indemnity</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>insurance-claims</groupId>
+            <artifactId>claims-commcon-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

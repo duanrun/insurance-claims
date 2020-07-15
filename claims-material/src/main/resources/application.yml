@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: claims-material
+server:
+  port: 12000

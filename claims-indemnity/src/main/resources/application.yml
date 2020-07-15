@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: claims-indemnity
+server:
+  port: 10000
