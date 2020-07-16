@@ -18,6 +18,10 @@ public class FormServiceImpl extends ServiceImpl<FormDao, FormEntity> implements
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
-        return null;
+        IPage<FormEntity> page = this.page(
+                new Query<FormEntity>().getPage(params),
+                new QueryWrapper<FormEntity>()
+        );
+        return new PageUtils(page);
     }
 }

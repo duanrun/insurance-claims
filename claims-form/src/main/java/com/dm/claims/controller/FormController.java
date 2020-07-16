@@ -6,6 +6,7 @@ import java.util.Map;
 import com.dm.claims.entity.FormEntity;
 import com.dm.claims.pojo.PageUtils;
 import com.dm.claims.pojo.R;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,7 +36,7 @@ public class FormController {
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = formService.queryPage(params);
-
+        System.out.println("访问了list接口");
         return R.ok().put("page", page);
     }
 
