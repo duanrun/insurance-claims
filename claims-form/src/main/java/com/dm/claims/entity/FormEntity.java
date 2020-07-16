@@ -64,5 +64,6 @@ public class FormEntity implements Serializable {
 	 * 赔款id
 	 */
 	private Integer indemnityId;
+	//
 
 }
